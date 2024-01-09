@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -10,5 +10,29 @@
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
+} */
+
+.header {
+  width: 383px;
+  height: 27px;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  justify-content: space-between;
+  display: flex;
+}
+.title {
+  margin-left: 16px;
 }
 
+.btn-Add {
+background-color: #047857;
+color: white;
+width: 45px;
+height: 25px;
+border-radius: 4px;
+padding: 5px, 9px, 5px, 9px;
+margin-top: 32px;
+
+
+gap: 9px;
+}
