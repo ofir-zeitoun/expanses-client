@@ -10,4 +10,6 @@ const fetchExpenses = (): Promise<Expense[]> =>
     })
     .then((data) => data as Expense[]);
 
-    export default fetchExpenses;
+
+
+export default fetchExpenses;
